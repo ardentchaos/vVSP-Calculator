@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="static/index.css">
+
+<head>
+	<title>vVSP Calculator</title>
+</head>
+
+<body>
+	<div class="content">
+		<div class="realign">
+			<h1>vVSP Calculator</h1>
+		</div>
+		<hr>
+		<div class="realign">
+			VSP → vVSP Vesper ratio
+			<div class="number">
+				{{ vVSPRatio }}
+			</div>
+		</div>
+		<div class="realign">
+			 VSP → vVSP Balancer ratio
+			<div class="number">
+				{{ balancerRatio }}
+			</div>
+		</div>
+		<hr>
+		{{ bestOption }}
+		<hr>
+
+		<div class="realign">
+			<button class="buttons" onclick="window.open('http://www.balancer.exchange')">Go to Balancer</button>
+			<button class="buttons" onclick="window.open('http://www.vesper.finance')">Go to Vesper</button>
+		</div>
+	</div>
+</body>
+
+</html>
